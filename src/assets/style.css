@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: sunflower;
+  src: url(sunflower.otf);
+}
+:root {
+  /* Blue  */
+  --blue-primary: #4193ff;
+  --blue-light: #deecff;
+  --blue-dark: #00142d;
+  /*  dark on primary: 6.01:1 (pass) 
+    light on primary: 2.56:1 (fail)
+    light on dark: 15.41:1 (pass)
+  */
+  /* Orange  */
+  --orange-primary: #fda172;
+  --orange-light: #fee1d3;
+  --orange-dark: #341201;
+  /*  Teal  */
+  --teal-primary: #7dac9f;
+  --teal-light: #e9f1ef;
+  --teal-dark: #111a18;
+  /*  Violet  */
+  --violet-primary: #a287a7;
+  --violet-light: #e8e2e9;
+  --violet-dark: #251d26;
+
+  /*    */
+  --pink-primary: #dc9d96;
+  --pink-light: #f5e2e0;
+  --pink-dark: #491c17;
+
+  --beige-primary: #d5b998;
+  --beige-light: #f1e8de;
+  --beige-dark: #241a0f;
+
+  --grey-primary: #c0aeb0;
+  --grey-light: #ebe5e6;
+  --grey-dark: #291f21;
+
+  --body-bg: #fcf5e7;
+  --text-color: #120f0f;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "sunflower", "playfair display", serif;
+  font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  background-color: var(--body-bg);
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+main{
+  padding: 2rem;
+}
